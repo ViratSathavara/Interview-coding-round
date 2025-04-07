@@ -9,6 +9,9 @@ import ThemeToggle from "./ToggleTheme/ToggleTheme";
 import DebouncedSearch from "./DebouncedSearch";
 import MultiStepForm from "./MultiStepForm";
 import DynamicTabs from "./DynamicTabs";
+import PaginatedUsers from "./PaginatedUsers";
+import LoginForm from "./LoginForm";
+import UserList from "./Redux/features/users/UserList";
 
 const App = () => {
   return (
@@ -22,7 +25,10 @@ const App = () => {
 {/* <SearchFilter /> */}
 {/* <Todo /> */}
 {/* <EmployeeApp /> */}
-<FetchExample />
+{/* <FetchExample /> */}
+{/* <LoginForm /> */}
+<UserList />
+{/* <PaginatedUsers /> */}
 {/* <AxiosExample /> */}
     </  >
   );
